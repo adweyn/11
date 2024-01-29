@@ -1,0 +1,16 @@
+.box {
+  color: #232323;
+  background-color: aqua;
+  border-radius: 15px;
+  padding: 20px;
+  border-color: #232323;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  padding: 15px 30px;
+  border-color: black;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+%box{
+    color: #232323;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 20px;
+    border-color: #232323;
+}
+.box{
+    @extend %box;
+}
+@mixin button($color, $bg, $radius){
+    color: $color;
+    background-color: $bg;
+    border-radius: $radius;
+    padding: 15px 30px;
+    border-color: $bg;
+    font-weight: bold;
+}
+.button{
+    @include button(white, black, 15px);
+}
